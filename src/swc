@@ -1,0 +1,5 @@
+ kubectl create secret docker-registry gitlab-registry     --docker-server=https://gitlab.iitb.ac.in:5050     --docker-username=shivar640@gmail.com     --docker-password=git@purna     --docker-email=shivar640@gmail.com 
+
+kubectl create secret generic swc-secret     --from-literal=DB_HOST=swciitdb     --from-literal=DB_NAME=sgswciit     --from-literal=DB_SA_PASSWORD=SigmaIit1^ 
+
+kubectl create secret generic db-swc     --from-literal=ACCEPT_EULA=Y     --from-literal=MSSQL_SA_PASSWORD=SigmaIit1^
